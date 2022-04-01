@@ -1,4 +1,17 @@
+
+
+  
 nav{
-    
+    font-size: 30px !important;
     height: 15%;
+    font-family: 'Lato', sans-serif;
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
 }
