@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "build/your-app-name",
+    "public": "build/RgvMassage-app",
     "ignore": [
       "firebase.json",
       "**/.*",
