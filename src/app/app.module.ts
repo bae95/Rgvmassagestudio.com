@@ -33,6 +33,8 @@ import { MdbTabsModule } from 'mdb-angular-ui-kit/tabs';
 import { MdbTooltipModule } from 'mdb-angular-ui-kit/tooltip';
 import { MdbValidationModule } from 'mdb-angular-ui-kit/validation';
 
+import { GoogleMapsModule } from '@angular/google-maps';
+
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { PagenotfoundComponent } from './Modules/pagenotfound/pagenotfound.component';
 
@@ -54,6 +56,7 @@ import { ArrayOfComponents } from './app-routing.module';
     ArrayOfComponents
   ],
   imports: [
+    GoogleMapsModule,
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,

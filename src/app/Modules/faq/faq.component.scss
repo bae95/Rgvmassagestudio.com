@@ -4,9 +4,32 @@
 
     background-color: rgb(197, 197, 197);
    }
+    
+   .center {
+    margin: auto;
+    width: 50%;
+    
+    padding: 10px;
+  }
+  
+  .content{
+    
+    margin: auto;
+    width: 10%;
+    overflow: scroll;
+    overflow: hidden;
+    padding: 10px;
+  }
+  
 
-     
-   
+  
+   .faq{
+    
+    width: 50%;
+    margin-left: 25%;
+    
+   }
+ 
     footer{
         position: fixed;
         bottom: 0;
