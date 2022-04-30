@@ -40,6 +40,9 @@ import { PagenotfoundComponent } from './Modules/pagenotfound/pagenotfound.compo
 
 import { ArrayOfComponents } from './app-routing.module';
 
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -56,6 +59,7 @@ import { ArrayOfComponents } from './app-routing.module';
     ArrayOfComponents
   ],
   imports: [
+    
     GoogleMapsModule,
     BrowserModule,
     AppRoutingModule,
@@ -77,7 +81,9 @@ import { ArrayOfComponents } from './app-routing.module';
     MdbTabsModule,
     MdbTooltipModule,
     MdbValidationModule,
-    MDBBootstrapModule.forRoot()
+    
+    MDBBootstrapModule.forRoot(),
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
