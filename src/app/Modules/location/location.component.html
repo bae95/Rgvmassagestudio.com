@@ -5,15 +5,22 @@
     <br>
      <h1  class="text-center  p-3">Location</h1>
     <div class="center">
-     <p>Lorem ipsum dolor sit amet, veniam habemus recusabo cum eu, et ridens graeci appetere ius. Vel cu corpora aliquando, vim quem unum molestie ut. At per tale repudiare, vel adhuc incorrupte ne. Noluisse consequuntur ea est.
+     <p> RGV Massage Studio is located at 2405 N. 10th St. in Mcallen, TX. Our private studio can be found inside of the La Vista Square office spaces.
+         You may park and enter through the front or back entrance to access the buildings indoor suites.
     </p>
+    
+    <p> If you have any questions about getting here,
+        feel free to give us a call at <a  style = "color:#494a4b;"  href="tel:9567762271">(956)776-2271</a></p>
+    
     <br>
-    <p >2405 N 10th St #C, McAllen, TX 78501</p>
+    <h5 class="text-center ">RGV Massage Studio</h5>
+    <p class="text-center  ">2405 N 10th St #C, McAllen, TX 78501</p>
+    
 
      <google-map height="350px"
-     width="100%"
+     width="100%" [options]="mapOptions"
      >
-     
+     <map-marker [position]="marker.position"></map-marker>
      </google-map>
     </div>
     <footer><app-footer></app-footer></footer>
