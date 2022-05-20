@@ -1,7 +1,6 @@
 {
   "hosting": {
-    "public": "dist/rgv-massage
-    -app",
+    "public": "dist/rgv-massage-app",
     "ignore": [
       "firebase.json",
       "**/.*",
