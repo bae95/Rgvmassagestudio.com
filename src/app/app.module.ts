@@ -40,6 +40,9 @@ import { PagenotfoundComponent } from './Modules/pagenotfound/pagenotfound.compo
 
 import { ArrayOfComponents } from './app-routing.module';
 
+import { NgbCarousel } from '@ng-bootstrap/ng-bootstrap';
+import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
+
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 
@@ -59,7 +62,7 @@ import { getAnalytics } from "firebase/analytics";
     ArrayOfComponents
   ],
   imports: [
-    
+    NgbCarouselModule,
     GoogleMapsModule,
     BrowserModule,
     AppRoutingModule,
