@@ -2,9 +2,12 @@
 
   
 nav{
-    font-size: 30px !important;
+    font-size: 20px !important;
     height: 15%;
     font-family: 'Lato', sans-serif;
+     position: flex;
+     width: flex;
+     
 }
 
 a.button {
@@ -14,4 +17,13 @@ a.button {
 
     text-decoration: none;
     color: initial;
+}
+a {
+
+    text-decoration: none;
+    color: initial;
+}
+a:hover { 
+    color: #88003f; 
+    cursor: pointer;
 }

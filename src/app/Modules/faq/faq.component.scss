@@ -3,12 +3,14 @@
    body{
 
     background-color: rgb(197, 197, 197);
+    overflow: scroll;
+  
    }
     
    .center {
     margin: auto;
     width: 50%;
-    
+    margin-top: -10px;
     padding: 10px;
   }
   
@@ -16,8 +18,7 @@
     
     margin: auto;
     width: 10%;
-    overflow: scroll;
-    overflow: hidden;
+   
     padding: 10px;
   }
   
@@ -27,6 +28,9 @@
     
     width: 50%;
     margin-left: 25%;
+    margin-top: -40px;
+    overflow: unset;
+    
     
    }
  
