@@ -42,10 +42,24 @@
 
     }
     .centercarousel{
-
-     position: fixed;
+      max-height: 400px;
+      
+      img {
+      max-width: 450%;
      
-     margin-top: -25px;
+      max-height: 400px;
+      
+   width: 100%;
+   height: auto;
+      }
+     position: flex;
+     
+     margin-top: -30px;
      margin-left: 35px;
      
     }
+    .carousel-inner {
+
+      
+      
+      }
