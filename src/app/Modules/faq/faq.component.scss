@@ -3,8 +3,8 @@
    body{
 
     background-color: rgb(197, 197, 197);
-    overflow: scroll;
   
+    position: flex;
    }
     
    .center {
@@ -22,20 +22,36 @@
     padding: 10px;
   }
   
+ .main{
+  
+padding-top: auto;
 
+overflow: none;
+background-color: rgb(197, 197, 197);
+
+ }
   
    .faq{
     
+    height: auto;
     width: 50%;
     margin-left: 25%;
     margin-top: -40px;
-    overflow: unset;
-    position: flex;
+  
+    
+    z-index:-1;
+  
     
    }
- 
+   nav{
+     position: flex;
+     width: 100%;
+     z-index:1;
+   }
     footer{
-        position: fixed;
+      z-index:1;
+      position: flex;
+     
         bottom: 0;
         width: 100%;
         box-shadow: 0 03px rgba(0,0,0,0.2);

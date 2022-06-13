@@ -1,6 +1,7 @@
 <body>
-    <app-navbar></app-navbar>
+    <nav><app-navbar></app-navbar></nav>
     <br>
+    <div class="main" >
     <h1 class="text-center  p-3">FAQ</h1>
     <div class="center">
      <p>Below you'll find answers to the questions we get asked the most about your massage experince.
@@ -8,7 +9,7 @@
     </div>
     <br>
      <div class="faq">
-    <mdb-accordion [flush]="false" [multiple]="false">
+    <mdb-accordion [flush]="false" [multiple]="false" >
   <mdb-accordion-item>
     <ng-template mdbAccordionItemHeader>Is an appointment requried?</ng-template>
     <ng-template mdbAccordionItemBody>
@@ -79,6 +80,7 @@
   </mdb-accordion-item>
 
 </mdb-accordion>
+     </div>
      </div>
     <footer><app-footer></app-footer></footer>
     

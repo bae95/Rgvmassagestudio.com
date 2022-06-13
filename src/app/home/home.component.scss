@@ -1,22 +1,22 @@
 .example-spacer {
     flex: 1 1 auto;
   }
+  #jumbotron {
+     /* Background pattern from Toptal Subtle Patterns */
+     margin: 0 0 55px 0;
+     height: 80%;
+     overflow: auto;
+     display: flex;
+     width: flex;
+     position: flex;
+     background-image: url("./../rgvmassagebackground.jpg");
+     background-position: center; /* Center the image */
+     background-repeat: no-repeat; /* Do not repeat the image */
+     background-size: cover; /* Resize the background image to cover the entire container */
+     background-color: rgb(24, 24, 24);
   
+  }
 
-  body {
-    /* Background pattern from Toptal Subtle Patterns */
-    margin: 0 0 55px 0;
-    height: 90%;
-    overflow: auto;
-    display: flex;
-    width: flex;
-    position: flex;
-    background-image: url("./../rgvmassagebackground.jpg");
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
-    background-color: rgb(24, 24, 24);
- }
  nav{
   overflow-x: auto;
   display: flex;

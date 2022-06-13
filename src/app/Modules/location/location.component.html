@@ -1,7 +1,8 @@
 
 <body>
     
-    <app-navbar></app-navbar>
+   <nav> <app-navbar></app-navbar> </nav>
+    <div class="content">
     <br>
      <h1  class="text-center  p-3">Location</h1>
     <div class="center">
@@ -23,6 +24,7 @@
      <map-marker [position]="marker.position"></map-marker>
      </google-map>
     </div>
+</div>
     <footer><app-footer></app-footer></footer>
     
     </body>

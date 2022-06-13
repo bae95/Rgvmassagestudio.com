@@ -3,8 +3,7 @@
     
      body{
 
-        background-color: rgb(197, 197, 197);
-        position: flex;
+      background-color: rgb(197, 197, 197);
      }
     
          
@@ -16,14 +15,23 @@
     }
     
     .content{
-      margin: auto;
-      width: 15%;
-      
-      padding: 10px;
+     
+      background-color: rgb(197, 197, 197);
+    overflow: auto;
+     position: flex;
+     overflow-y:auto
     }
-    
+    nav{
+      position: flex;
+      width: 100%;
+      z-index:1;
+    }
+     
+      
     footer{
-        position: flex;
+      z-index:1;
+      position: flex;
+       padding-bottom: -20%;
         bottom: 0;
         width: 100%;
         box-shadow: 0 03px rgba(0,0,0,0.2);
