@@ -35,6 +35,7 @@ import { MdbValidationModule } from 'mdb-angular-ui-kit/validation';
 
 import { GoogleMapsModule } from '@angular/google-maps';
 
+
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { PagenotfoundComponent } from './Modules/pagenotfound/pagenotfound.component';
 
@@ -85,7 +86,7 @@ import { getAnalytics } from "firebase/analytics";
     MdbTooltipModule,
     MdbValidationModule,
     
-    MDBBootstrapModule.forRoot(),
+  
     
   ],
   providers: [],

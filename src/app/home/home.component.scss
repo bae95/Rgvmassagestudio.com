@@ -1,16 +1,24 @@
 .example-spacer {
     flex: 1 1 auto;
   }
+  body{
+    background-color: rgb(24, 24, 24);
+    
+    
+  }
   #jumbotron {
      /* Background pattern from Toptal Subtle Patterns */
      margin: 0 0 55px 0;
-     height: 80%;
+     height: 40%;
      overflow: auto;
      display: flex;
+     
      width: flex;
      position: flex;
      background-image: url("./../rgvmassagebackground.jpg");
-     background-position: center; /* Center the image */
+     background-position-x: 150px;
+     
+     background-position: center center; /* Center the image */
      background-repeat: no-repeat; /* Do not repeat the image */
      background-size: cover; /* Resize the background image to cover the entire container */
      background-color: rgb(24, 24, 24);
@@ -51,4 +59,18 @@ a {
 
   text-decoration: none;
   color: initial;
+}
+@media only screen and (min-width: 800px) {
+
+  #jumbotron{
+    
+    margin: 0 0 55px 0;
+    height: 80%;
+    overflow: auto;
+    display: flex;
+    width: flex;
+    position: flex;
+    background-image: url("./../rgvmassagebackground.jpg");
+  }
+
 }

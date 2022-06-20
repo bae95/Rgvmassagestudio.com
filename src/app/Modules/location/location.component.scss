@@ -1,9 +1,12 @@
 
     
-    
+
      body{
 
       background-color: rgb(197, 197, 197);
+      font-size: small;
+    flex-direction: column;
+    display: flex;
      }
     
          
@@ -38,3 +41,29 @@
         
         overflow-x: auto;
         }
+        @media only screen and (min-width: 700px) {
+
+          footer {
+            position:fixed;
+            bottom: 0;
+            
+          }
+         
+       body{
+      font-size: large;
+     }
+
+
+     h1{
+      font-size: 45x;
+      
+     }
+     h5{
+      font-size: large;
+     }
+     google-map{
+      height: 350px;
+      width: 100%;
+        }
+      }
+       

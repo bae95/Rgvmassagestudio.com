@@ -3,8 +3,10 @@
    body{
 
     background-color: rgb(197, 197, 197);
+   
+    font-size: small;
+   
   
-    position: flex;
    }
     
    .center {
@@ -20,6 +22,7 @@
     width: 10%;
    
     padding: 10px;
+    
   }
   
  .main{
@@ -30,6 +33,7 @@ overflow: none;
 background-color: rgb(197, 197, 197);
 
  }
+
   
    .faq{
     
@@ -38,7 +42,7 @@ background-color: rgb(197, 197, 197);
     margin-left: 25%;
     margin-top: -40px;
   
-    
+   
     z-index:-1;
   
     
@@ -51,10 +55,23 @@ background-color: rgb(197, 197, 197);
     footer{
       z-index:1;
       position: flex;
-     
+
         bottom: 0;
         width: 100%;
         box-shadow: 0 03px rgba(0,0,0,0.2);
         
         overflow-x: auto;
+        }
+        @media only screen and (min-width: 800px) {
+
+          footer {
+            position:fixed;
+            bottom: 0;
+            
+          }
+          body{
+            font-size: large;
+           }
+      
+
         }

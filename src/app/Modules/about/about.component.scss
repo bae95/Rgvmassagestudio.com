@@ -2,6 +2,9 @@
  body{
 
     background-color: rgb(197, 197, 197);
+    font-size: small;
+    flex-direction: column;
+    display: flex;
  }
 
  nav{
@@ -32,3 +35,25 @@
      
      padding: 10px;
    }
+   @media only screen and (min-width: 800px) {
+
+    footer {
+      position:fixed;
+      bottom: 0;
+      
+    }
+   
+    body{
+      font-size: large;
+     }
+
+
+     h1{
+      font-size: 45px;
+      
+     }
+     h5{
+      font-size: x-large;
+     }
+
+  }
