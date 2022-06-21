@@ -11,7 +11,7 @@
     
    .center {
     margin: auto;
-    width: 50%;
+    width: 100%;
     margin-top: -10px;
     padding: 10px;
   }
@@ -26,7 +26,7 @@
   }
   
  .main{
-  
+width: 100%;
 padding-top: auto;
 
 overflow: none;
@@ -38,8 +38,8 @@ background-color: rgb(197, 197, 197);
    .faq{
     
     height: auto;
-    width: 50%;
-    margin-left: 25%;
+    width: 85%;
+    margin-left: 8%;
     margin-top: -40px;
   
    
@@ -59,19 +59,54 @@ background-color: rgb(197, 197, 197);
         bottom: 0;
         width: 100%;
         box-shadow: 0 03px rgba(0,0,0,0.2);
-        
+        font-size: x-small;
         overflow-x: auto;
         }
+        .footer2{
+          padding-top: 100px;
+          background-color: rgb(197, 197, 197);
+         }
         @media only screen and (min-width: 800px) {
-
+          .main{ 
+            width:50%;
+            margin: auto;
+          
+            margin-top: -10px;
+            padding: 10px;
+          }
+          .center{
+            width:50%;
+          }
+          .footer2{
+           padding-top: 135px;
+          }
           footer {
-            position:fixed;
+            position:flex;
             bottom: 0;
+            font-size: large;
             
           }
           body{
             font-size: large;
            }
       
-
+           .center {
+            margin: auto;
+            width: 50%;
+            
+            padding: 10px;
+          }
+          .faq{
+    
+            height: auto;
+            width: 100%;
+            margin-left: 5%;
+            margin-top: -40px;
+          
+           
+            z-index:-1;
+          
+            
+           }
         }
+       

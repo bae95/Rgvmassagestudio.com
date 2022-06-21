@@ -19,14 +19,14 @@
     bottom: 0;
     width: 100%;
     box-shadow: 0 03px rgba(0,0,0,0.2);
-    
+    font-size: x-small;
     overflow-x: auto;
     }    
     .center {
      margin: auto;
-     width: 50%;
+     width: 100%;
      
-     padding: 10px;
+     padding: 20px;
    }
    
    .content{
@@ -38,9 +38,9 @@
    @media only screen and (min-width: 800px) {
 
     footer {
-      position:fixed;
+      position:flex;
       bottom: 0;
-      
+      font-size: large;
     }
    
     body{
@@ -55,5 +55,12 @@
      h5{
       font-size: x-large;
      }
-
+     .center {
+      margin: auto;
+      width: 50%;
+      
+      padding: 80px;
+      padding-top: 1px;
+    }
+    
   }
