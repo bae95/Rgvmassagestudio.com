@@ -21,7 +21,12 @@
  nav[_ngcontent-efn-c19]{
     
  }
-  
+ img {
+  float: left;
+  width:  400px;
+  height: 150px;
+  object-fit: cover;
+}
 .main{
    overflow-y:auto;
 }
@@ -63,9 +68,10 @@
       padding-top: 10px;
     }
     .carousel-inner {
-      max-height: 400px;
+      max-height: 800px;
       img {
-        max-height: 400px;
+        max-height: 300px;
+        vertical-align: middle;
       }
     }
     
@@ -103,5 +109,10 @@
        }
        
       
-       
+       img {
+        float: left;
+        width:  400px;
+        height: 400px;
+        object-fit: cover;
+      }
        }

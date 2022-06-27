@@ -1,15 +1,34 @@
-
-
 <body>
-<nav><app-navbar></app-navbar></nav>
-<br>
+  <nav> <app-navbar></app-navbar></nav>
+   <br>
+   <div class="main">
 <h1  class="text-center  p-3">About</h1>
+
 <div class="center">
-<p> At RGV Massage Studio, we are dedicated to serving the needs of our clients in the Rio Grande Valley. We strive to ensure that you will be have a relaxing experience in a welcoming,  
-  safe, and private enviroment. From medical massages to sweedish massages, we provide a range of services, and tailor each experince to your individual needs. We look foward to serving you!
+<br>
+<p >At RGV Massage Studio, we are dedicated to serving the needs of our clients in the Rio Grande Valley. We strive to ensure that you will be have a relaxing experience in a welcoming, safe, and private enviroment. From medical massages to sweedish massages, we provide a range of services, and tailor each experince to your individual needs. We look foward to serving you!
 </p>
 <br>
-  </div>
-<footer><app-footer></app-footer></footer>
 
-</body>
+<mdb-carousel  [indicators]="true" [animation]="'fade'">
+ <mdb-carousel-item>
+   <img
+     src="assets/image/noel_license.png"
+     
+     class="d-block w-100"
+    
+     
+     alt="..."
+   />
+   <div class="carousel-caption d-none d-md-block">
+     
+   </div>
+ </mdb-carousel-item>
+
+</mdb-carousel>
+ </div>
+ </div>
+
+   <footer><app-footer></app-footer></footer>
+   
+   </body>

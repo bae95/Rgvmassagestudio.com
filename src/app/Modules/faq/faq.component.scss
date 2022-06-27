@@ -6,14 +6,17 @@
    
     font-size: small;
    
-  
+    overflow: auto;
    }
     
    .center {
+    
+    width: 100%;
     margin: auto;
     width: 100%;
-    margin-top: -10px;
-    padding: 10px;
+    
+    padding: 20px;
+    overflow: visible;
   }
   
   .content{
@@ -29,7 +32,7 @@
 width: 100%;
 padding-top: auto;
 
-overflow: none;
+overflow: visible;
 background-color: rgb(197, 197, 197);
 
  }
@@ -75,7 +78,7 @@ background-color: rgb(197, 197, 197);
             padding: 10px;
           }
           .center{
-            width:50%;
+            width:100%;
           }
           .footer2{
            padding-top: 135px;
