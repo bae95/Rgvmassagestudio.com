@@ -2,6 +2,7 @@
 <body>
     
    <nav> <app-navbar></app-navbar> </nav>
+   <div class="main">
     <div class="content">
     <br>
      <h1  class="text-center  p-3">Location</h1>
@@ -16,15 +17,18 @@
     <br>
     <h5 class="text-center ">RGV Massage Studio</h5>
     <p class="text-center  ">2405 N 10th St #C, McAllen, TX 78501</p>
-    
-
+    <div class="map">
      <google-map height="350px"
      width="100%" [options]="mapOptions"
      >
      <map-marker [position]="marker.position"></map-marker>
      </google-map>
     </div>
+    </div>
+</div>
 </div>
     <footer><app-footer></app-footer></footer>
     
     </body>
+
+    
